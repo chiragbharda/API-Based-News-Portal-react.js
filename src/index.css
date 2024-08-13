@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.spinner-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-container .spinner-border {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("https://icon-library.com/images/hamburger-menu-icon-transparent/hamburger-menu-icon-transparent-3.jpg") !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.dropdown button {
+  border: none !important;
+  padding: 8px !important;
+  font-size: 17.6px !important;
+  background-color: transparent !important;
+}
+
+.dropdown button:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.news-card {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
